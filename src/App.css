@@ -1,0 +1,143 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  max-width: auto;
+  max-height: fit-content;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url("src/img/bc.jpg");  
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#root form {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  background-color: rgb(37, 39, 39);
+}
+
+#root .main {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form input[type="password"] {
+  box-sizing: border-box;
+  width: 200px;
+  height: 25px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+input[type="password"] {
+  box-sizing: border-box;
+  width: 200px;
+  height: 25px;
+  padding-right: 50px;
+}
+
+.password-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.show-hide-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  right: 10px;
+}
+
+.password-input {
+  width: 200px;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+
+.show-hide-button:focus {
+  outline: none;
+}
+
+.show-hide-button:hover {
+  text-decoration: underline;
+}
+
+.show-password {
+  color: #4caf50;
+}
+
+.hide-password {
+  color: #f44336;
+}
+
+input[type="password"] {
+  padding-right: 50px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
