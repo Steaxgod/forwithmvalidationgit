@@ -51,7 +51,7 @@ function App() {
     <>
       <form onSubmit={handleSubmit}>
         <div className="main" id="main">
-          <label htmlFor="nickname">Nickname:</label>
+          <label htmlFor="nickname">Name:</label>
           <input type="text" id="nickname" name="nickname" value={nickname} onChange={(e) => setNickname(e.target.value)} className={nickname.length === 0 && "error"} /><br />
   
           <label htmlFor="email">Email:</label>
