@@ -53,6 +53,7 @@ body {
   font-size: 16px;
   font-family: Arial, sans-serif;
 }
+
 input[type="password"] {
   box-sizing: border-box;
   width: 200px;
@@ -104,6 +105,17 @@ input[type="password"] {
 
 input[type="password"] {
   padding-right: 50px;
+}
+
+
+.error-message {
+  color: red;
+}
+
+
+
+.clear {
+  margin-top: 15px;
 }
 
 .logo {
